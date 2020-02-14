@@ -10,7 +10,7 @@ public class FileExample {
     public static void main(String[] args) throws IOException {
         Path fileToRead = Paths.get ("C:\\Users\\Lenovo X220 Tablet\\IdeaProjects\\Modul2\\src\\Task3\\Level2\\Lecture\\dummyData");//FileReader reader = null;
         try (FileReader reader = new FileReader (fileToRead.toFile ( ));
-             FileWriter writer = new FileWriter (Paths.get (fileToRead.getParent ( ).toString ( ), "dummyData.copy").toFile ( ))) {  // write to folder :fileToRead.getParent ().toFile ())  // Try   with resources
+             FileWriter writer = new FileWriter (Paths.get (fileToRead.getParent ( ).toString ( ), "dummyData.copy").toFile ( ))) {   // Try   with resources
             System.out.println ("Successful start");
 
             int i;
