@@ -22,13 +22,13 @@ public class PathsToMain {
         p.existanceOfFileSourse ( );
         System.out.print ("3. Check if file 'Go2ITnew.dat' exist : ");
         p.existanceOfFileDestination ( );
-        System.out.println ("4. Copying and creating the file ");
+
         p.copyAndCreate ();
 
         System.out.print ("5. Check if file 'Go2ITnew2.dat' exist : "); //copy content to file
         p.existanceOfFileDestination2 ( );
 
-        p.copyFileByStream ();
+        //p.copyFileByStream ();
 
 
     }
